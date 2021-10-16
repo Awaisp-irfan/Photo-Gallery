@@ -9,7 +9,7 @@ const {url, progress} =useStorage(file);
         setFile(null)
     }
     
- }, [url, setFile ])
+ }, [url, setFile ] )
 
     return (  
         <div className="progress-bar" style={{width: progress + '%'}}></div>
